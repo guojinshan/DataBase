@@ -1,0 +1,112 @@
+==========Musée_Extérieur==========
+        Nom                                 Adresse
+Musée d'Orsay                   1 Rue de la Légion d'Honneur, 75007 Paris
+Le Centre Pompidou              3 Place Georges-Pompidou, 75004 Paris
+Musée National Picasso-Paris    5 Rue de Thorigny, 75003 Paris
+Musée de l'Armée                129 Rue de Grenelle, 75007 Paris
+
+==========Type_Oeuvre==========
+    Type
+Peinture
+Sculpture
+Photographie
+
+==========Auteur==========
+Nom          Prénom      Naissance   Mort
+Léonard     De Vinci    15/04/1452  02/05/1519
+Alexandros  D'Antioche  10/04/1003  11/03/1083
+Eugène      Delacroix   26/04/1798  13/08/1863
+Charles     Champoiseau 01/05/1830  29/06/1909
+Gustave     Courbet     10/06/1819  31/12/1877
+Vincent     Van Gogh    30/03/1853  29/07/1890
+Henri       Matisse     31/12/1869  03/11/1954
+Otto         Dix        02/12/1891  25/07/1969
+Pablo       Picasso     25/10/1881  08/04/1973   
+
+==========Exposition_Permanante=========
+Nom
+EP1
+EP2
+EP3
+
+==========Exposition_Temporaire==========
+Nom        Début        Fin
+ET1     26/11/2020    26/12/2020     
+ET2     26/11/2020    03/12/2020
+ET3     01/12/2020    25/12/2020
+ET4     01/01/2021    10/02/2021
+
+==========Oeuvre_Louvre==========
+    Titre                    Date           (X, Y, Z)   Deja_empruntée   Type_ouvre  Nom_auteur  Prénom_auteur   Naissance_auteur    Exposition  Prix
+La Joconde                   10/11/1503   (53 ,77, 0)     False          Peinture     Léonard     De Vinci        15/04/1452          EP1      20,000,000,000
+Vénus de Milo                08/07/1820  (130,140,150)    False          Sculpture   Alexandros  D'Antioche       10/04/1003          EP1      2,000,000,000
+La Liberté guidant le peuple 12/06/1830   (325,260,0)     False          Peinture     Eugène       Delacroix      26/04/1798          EP2      3,000,000,000
+Victoire de Samothrace       14/03/1863   (130, 140,512)  True           Sculpture    Charles     Champoiseau     01/05/1830          EP2      10,000,000,000
+
+==========Oeuvre_Ext==========
+Titre                       Date          (X, Y, Z)    Deja_empruntée  Type_ouvre  Nom_auteur  Prénom_auteur   Naissance_auteur    Exposition
+L'Origine du monde          01/12/1866    (46,55,0)       False         Peinture    Gustave     Courbet        10/06/1819           ET1
+Autoportrait                07/09/1889    (65,54,0)       False         Peinture    Vincent     Van Gogh       30/03/1853           ET2
+La Nuit étoilée             25/12/1888    (72,92,0)       False         Peinture    Vincent     Van Gogh       30/03/1853           ET1
+La Tristesse du roi         10/10/1952    (292,386,0)     False         Peinture     Henri       Matisse       31/12/1869           ET3
+Portrait de la journaliste  27/11/1926    (121,89,0)      False         Sculpture     Otto         Dix         02/12/1891           ET4
+    Sylvia von Harden
+La Mort de Casagemas        24/02/1901    (27,35,0)       False         Peinture      Pablo     Picasso        25/10/1881           ET3
+La fille aux pieds nus      15/15/1895    (75,50,0)       False         Peinture      Pablo     Picasso        25/10/1881           ET3
+        
+==========Emprunt==========
+Début           Fin         Musée                   Titre_oeuvre          Date_oeuvre         Prix
+30/11/2020   15/12/2020   Musée d'Orsay          L'Origine du monde         01/12/1866      500,000,000
+30/11/2020   15/12/2020   Musée d'Orsay          Autoportrait               07/09/1889      500,000,000
+23/12/2020   27/02/2021   Le Centre Pompidou    La Nuit étoilée             25/12/1888      600,000,000
+
+==========Prêt==========
+Début           Fin             Musée           Titre_oeuvre              Date_oeuvre     Prix
+30/11/2020   15/12/2020     Musée d'Orsay       La Joconde                  10/11/1503      20,000,000,00
+30/11/2020   15/12/2020     Musée d'Orsay       Vénus de Milo               08/07/1820      2,000,000,00
+30/12/2020   14/02/2021   Le Centre Pompidou    Vénus de Milo               08/07/1820      2,000,000,00
+30/12/2020   14/02/2021   Le Centre Pompidou  La Liberté guidant le peuple  12/06/1830      3,000,000,000
+
+==========Prestataire==========
+Nom     Raison_sociale
+Paul        SASU
+Yann        EURL
+Juliette    SAS
+Camille     SARL
+Maxime      SNC
+Bastien     SA
+
+==========Restauration==========
+Date        Type    Montant     Prestataire     Titre_oeuvre    Date_oeuvre
+20/11/2020  Léger   2000,00        Paul          La Joconde     10//11/1503
+
+==========Créneau==========
+Jour        Horaire     Exposition_permanante
+Lundi       9h-11h              EP1
+Lundi       9h-11h              EP2
+Mardi       11h-13h             EP1
+Vendredi    10h-12h             EP1
+Vendredi    13h-15h             EP3
+
+==========Guide==========
+Id      Nom     Prénom      Adresse     Embauche     Exposition_temporaire
+1      Adlan    MERLO      Compiègne    10/11/2018       ET1
+2      Alain    Donadey     Paris       17/02/2019       ET1
+3      Anais    Schumacher Compiègne    15/03/2015       ET1
+4     Anne      MEULEAU     Lyon        15/03/2015       ET2
+
+==========Créneau_Guide==========
+Guide   Jour    Horaire     Exposition_permanante
+1       Lundi   9h-11h           EP1
+2       Mardi   11h-13h          EP1
+
+==========Salle==========
+Numéro      Capacité        Exposition_temporaire
+1            500                EP1
+2            300                EP1
+3            500                EP2
+
+==========Panneau==========
+Numéro      Texte       Salle
+1          Panneau1       1
+1          Panneau1       2
