@@ -6,14 +6,6 @@ Gestion du musée du Louvre
 ## Descripition
 C'est un projet destiné à concevoir un SGBDR des œuvres et des expositions du musée du Louvre et à développer une interface d'application permettant l'interaction avec ce système.
 
-## Membres du groupe
- Prenom|Nom|Email
-:---:|:---:|:---:
-Xia|QI|qi.xia@etu.utc.fr
-Bastien|LE CALVE|bastien.le-calve@etu.utc.fr
-Jules|YVON|jules.yvon@etu.utc.fr
-Jinshan|GUO|jinshan.guo@etu.utc.fr
-
 ## Processus du projet
 Etape|Date limite rendue|Etat
 :---:|:---:|:---:
