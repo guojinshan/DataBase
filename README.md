@@ -1,7 +1,7 @@
-# 卢浮宫著作 - 内部管理系统
-（基于Python的数据库应用）
+# 卢浮宫著作 - 基于Python的数据库内部管理系统应用
+（Database Management System Application Based On Python）
 
-# 内容描述
+# 内容概述
 
 1. 使用Markdown撰写客户需求说明书，明确各实体的属性、方法、约束以及统计功能。
 2. 基于UML和PostgreSQL实现关系型数据库的建模、类的实例化与视图的创建。
